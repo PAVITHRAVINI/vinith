@@ -7,7 +7,7 @@ scanf("%d",&p);
 for(i=1;i<=p;i++)
 {
 q=p*i;
-printf("%d*%d=%d\t\n",p,i,q);
+printf("%d\t",q);
 }
 return 0;
 }
