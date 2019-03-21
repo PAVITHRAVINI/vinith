@@ -1,18 +1,18 @@
 #include<stdio.h>
 void main()
 {
-int a[20],i,temp;
+int r[20],i,temp;
 printf("enter number");
 for(i=1;i<=10;i++)
 {
-scanf("%d",&a[i]);
+scanf("%d",&r[i]);
 }
-temp=a[1];
+temp=r[1];
 for(i=1;i<=10;i++)
 {
-if(temp<a[i])
+if(temp<r[i])
 {
-temp=a[i];
+temp=r[i];
 }
 }
 printf("%d",temp);
