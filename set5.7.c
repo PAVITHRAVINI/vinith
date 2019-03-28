@@ -3,7 +3,7 @@
 void main()
 {
     int a[50],i,j,k,t;
-    printf("enter a limit");
+    printf("enter limit");
     scanf("%d",&k);
     for(i=0;i<k;i++)
     {
@@ -25,6 +25,6 @@ void main()
     {
     printf("%d",a[i]);
 }
-printf("smallest number %d",a[0]);
-printf("largest number %d",a[k-1]);
+printf("smallest number= %d",a[0]);
+printf("largest number= %d",a[k-1]);
 }
